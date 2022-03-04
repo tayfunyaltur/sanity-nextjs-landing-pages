@@ -4,8 +4,8 @@ import {withRouter} from 'next/router'
 import styled from "styled-components";
 import SVG from 'react-inlinesvg'
 import {Button, Container, Nav, Navbar} from "react-bootstrap";
-import {useWindowScroll} from "react-use";
 import {jump} from "../utils/jump";
+import {useWindowScroll} from "react-use";
 import {GlobalContext} from "./GlobalStore";
 
 const BurgerButtonWrapper = styled.div`
